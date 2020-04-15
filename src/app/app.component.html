@@ -1,4 +1,11 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<input [(ngModel)] = "a" type ="text"> pangkat
+<input [(ngModel)] = "b" type ="text">
+
+<br/><br/>
+<button (click) = "saveVariables(a, b)"> Generate</button>
+
+<br/><br/>
+Hasilnya {{hasil}}
+
+<br/><br/>
+{{arrPola}}
